@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.v-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.fullscreen-video-wrap video {
+  position: relative;
+  left: 100%;
+  margin-left: -200%;﻿
+}
+
+.left {
+  z-index: 3;
+}
+
+.middle {
+  z-index: 2;
+}
+
+
+.far {
+  width: 1500px;
+  position: relative;
+  right: 300px;
+}
+
+.mid {
+  position: relative;
+  width: 1500px;
+  right: 1800px;
+  text-align: center;
+}
+
+.final {
+  z-index: 4;
+  position: relative;
+  width: 650px;
+  right: 2535px;
+  top: 14px;
+}
